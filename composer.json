@@ -1,0 +1,12 @@
+{
+    "name": "php/benchmark",
+    "autoload": {
+        "psr-4": {
+            "Benchmark\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpbench/phpbench": "^1.2"
+    }
+}
